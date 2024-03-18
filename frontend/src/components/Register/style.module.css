@@ -1,0 +1,99 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #394350;
+}
+
+.formContainer {
+  width: 450px;
+  height: 500px;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  /* background-color: #fff;
+  border: 1px solid #ddd; */
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.p {
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.inputBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+  width: 70%;
+  height: 40px;
+  padding: 10px;
+  border: 1px solid #a0d3e2;
+  border-radius: 5px;
+  /* background-color: #fff; */
+}
+.inputBox:hover {
+  background-color: #434f5f;
+}
+
+.inputBox input {
+  position: relative;
+  /* width: 80%;
+  padding: 10px;
+  border: 1px solid #a0d3e2;
+  border-radius: 5px; */
+  border: none;
+  background: transparent;
+  outline: none;
+  color: #fff;
+}
+
+.icon {
+  color: #fff;
+  width: 40px;
+  height: 60px;
+}
+.icons {
+  position: relative;
+  color: #fff;
+  width: 40px;
+}
+.hideIcon {
+  color: #fff;
+}
+
+.formContainer button {
+  width: 50%;
+  padding: 10px;
+  background-color: #23a797;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.formContainer button:hover {
+  background-color: #2980b9;
+}
+.forgotPassword {
+  /* text-align: right; */
+  font-size: 14px;
+  color: #72a19a; /* Adjust the color as needed */
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.forgotPassword:hover {
+  text-decoration: underline;
+}
+.link {
+  color: red;
+}

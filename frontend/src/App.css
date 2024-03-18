@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background-color: #141c2f; */
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.ant-menu {
+  background-color: #394350 !important;
+}
+/* .ant-form {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around !important;
+  margin-top: 20px;
+} */

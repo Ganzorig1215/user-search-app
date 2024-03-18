@@ -1,0 +1,51 @@
+.main {
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.SideBar {
+  /* width: 14%; */
+  /* height: 100vh; */
+  background-color: #394350;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: #f5f5f5;
+}
+.container section {
+  width: 90%;
+  height: 80vh;
+  left: 10px;
+  margin-left: 40px;
+  border-radius: 5px;
+  margin-top: 25px;
+  overflow-y: scroll;
+  display: flex;
+  justify-content: center;
+  /* background-color: #fff;
+  box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.5); */
+}
+.container footer {
+  width: 100%;
+  height: 8vh;
+}
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  height: 5vh;
+  border-bottom: 1px solid rgb(39, 37, 37);
+  padding: 10px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: #394350;
+}
+.AiOutlinePoweroff {
+  margin-right: 20px;
+}

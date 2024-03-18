@@ -1,0 +1,57 @@
+h2 {
+  margin-top: 10px;
+}
+.contain {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  width: 100%;
+  margin-top: 20px;
+  /* box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.5); */
+}
+.nextContain {
+  background-color: #fff;
+  width: 100%;
+}
+.call {
+  width: 100%;
+
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+}
+.call button {
+  width: 50%;
+  height: 100%;
+  border: 1px solid #394350;
+  /* color: #fff; */
+}
+.innerContain {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.aaa {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+.searchButton {
+  background-color: #394350;
+  color: #fff;
+  border: none;
+  width: 100px;
+  height: 30px;
+  margin-bottom: 15px;
+}
+.activeButton {
+  background-color: #394350;
+  color: white;
+}
+.importForm {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+  margin-top: 30px;
+}
